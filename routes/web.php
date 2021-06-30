@@ -16,8 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('/product',[\App\Http\Controllers\ProductDetails::class, 'product']);
 =======
 
 Route::get('/cart', [\App\Http\Controllers\CartController::class, 'cart1']);
 >>>>>>> 51a7765b5a0206cef1033d70582e9157c228a000
+=======
+Route::get('/product',[\App\Http\Controllers\ProductDetails::class, 'product']);
+Route::get('/cart', [\App\Http\Controllers\CartController::class, 'cart1']);
+>>>>>>> b22373bb57be51c24c844931f4c1b089df46c546
