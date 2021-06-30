@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductDetails;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/product',[\App\Http\Controllers\ProductDetails::class, 'product']);
