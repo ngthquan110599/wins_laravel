@@ -19,6 +19,11 @@ body{
     border-bottom: 1px solid #6D44E0;
     margin: 20px 0;
 }
+.align_content{
+    padding: 0 8%;
+    width: 100%;
+    margin: 20px 0;
+}
 .logo_cover{
     float: left;
     display: flex;
@@ -255,15 +260,15 @@ body{
     position: absolute;
 }
 
-
-
 .minicart{
-    background: #fff;
-    margin: 15px 0px 0 25px;
     width: 30%;
     height: 100%;
+}
+.minicart_payment{
+    background: #fff;
+    margin: 15px 0px 0 25px;
+    width: 100%;
     border-radius: 4px;
-
 }
 .payment{
     width: 100%;
@@ -291,6 +296,7 @@ body{
     width: 50%;
 }
 .chosed{
+    padding-top: 15px;
     margin: 15px;
     display: flex;
 }
@@ -334,4 +340,234 @@ body{
     font-weight: bold;
     font-size: 13px;
     outline: none;
+}
+
+
+
+
+/*CART 2 CSS*/
+
+.address_receive{
+    background: #fff;
+}
+.address_receive_content{
+    padding-bottom: 10px;
+}
+.receive_title{
+    display: flex;
+}
+.receive_title span{
+    padding: 0 6px;
+    margin: 34px 0;
+    font-size: 24px;
+    line-height: 34px;
+    color: #273D90;
+}
+.user_address_infor{
+    display: flex;
+}
+.user_name{
+    width: 10%;
+}
+.user_name span{
+    font-size: 16px;
+    line-height: 34px;
+    color: #000000;
+}
+.user_address_detail{
+    width: 60%;
+}
+.user_address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+}
+.user_phone{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 34px;
+}
+.button_change_address{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_default{
+    width: 163px;
+    height: 40px;
+    background: #F0ECFC;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #D2D2D2;
+    margin-right: 30px;
+}
+.btn_change{
+    width: 163px;
+    height: 40px;
+    background: #6D44E0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+}
+.amount_of_product{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    padding: 15px 0;
+    background: #FFFFFF;
+    border: 2px solid #6D44E0;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 17px rgba(136, 24, 223, 0.2);
+    border-radius: 8px 8px 0 0;
+}
+.amount_of_item{
+    width: 65%;
+    padding: 0 30px;
+}
+.amount_of_item span{
+    font-size: 14px;
+    line-height: 16px;
+    color: #051C65;
+}
+.amount_of_item table{
+    width: 100%;
+    text-align: center;
+}
+.amount_of_money{
+    width: 35%;
+    padding: 0 20px;
+}
+.amount_of_money span{
+    font-size: 12px;
+    line-height: 120%;
+    color: #45579A;
+}
+.amount_of_money table{
+    padding: 0 20px;
+}
+
+.table_payment{
+    background: #fff;
+    margin: 15px 0px 0 25px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.chosed2{
+    padding: 35px 0px;
+    display: flex;
+    border-bottom: 1px solid #DFDFDF;
+}
+.chosed2 input{
+    width: 24px;
+    height: 24px;
+    margin: 0 25px;
+    background: #3BCADD;
+    opacity: 0.2;
+    border-radius: 4px;
+}
+.transfered{
+    padding: 15px 25px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.transfered button{
+    width: 202px;
+    height: 40px;
+    border: 1px solid #EE0D79;
+    color: #EE0D79;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: none;
+    margin: 6px 0;
+}
+.am_product_minicart{
+    padding: 10px 25px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.nub_product{
+    line-height: 30px;
+    color: #EE0D79;
+}
+.note_for_shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 25px 0 25px;
+}
+.note_for_shop textarea{
+    width: 100%;
+    height: 100px;
+    background: #C4C4C4;
+    border-radius: 9px;
+    margin: 0px 0 20px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    overflow:hidden;
+}
+.minicart_payment_2{
+    background: #fff;
+    margin: 15px 0px 0 25px;
+    width: 100%;
+    border: 2px solid #6D44E0;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 17px rgba(136, 24, 223, 0.2);
+    border-radius: 8px 8px 0 0;
+}
+.chosed3{
+    padding: 11px 0px;
+    display: flex;
+}
+.chosed3 input{
+    width: 24px;
+    height: 24px;
+    margin: 0 15px;
+    background: #3BCADD;
+    opacity: 0.2;
+    border-radius: 4px;
+}
+.chosed3 span{
+    margin: auto 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.payment_2{
+    width: 100%;
+    height: auto;
+    display: flex; 
+}
+.sum_pay_2{
+    width: 60%;
+    padding-left: 20px;
+}
+.finaly_price2{
+    font-size: 18px;
+    color: #EE0D79;
+    font-weight: bold;
+    line-height: 20px;
+}
+.button_pay2 button{
+    width: 135px;
+    height: 39px;   
+    background: #6D44E0;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+}
+.cover_amount_pay_number2{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

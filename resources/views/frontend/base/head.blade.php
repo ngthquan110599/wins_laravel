@@ -8,9 +8,9 @@
       <meta name='viewport' content='width=device-width, initial-scale=1'>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
             integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="css/base/header.css">
-      <link rel="stylesheet" type="text/css" href="css/base/footer.css">
-      <link rel="stylesheet" type="text/css" href="css/base/style.css">
+      <link rel="stylesheet" type="text/css" href="/access/css/base/header.css">
+      <link rel="stylesheet" type="text/css" href="/access/css/base/footer.css">
+      <link rel="stylesheet" type="text/css" href="/access/css/base/style.css">
       <link rel="stylesheet" type="text/css" href="/access/css/bootstrap.css">
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
