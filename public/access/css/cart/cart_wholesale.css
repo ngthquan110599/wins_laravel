@@ -1,0 +1,152 @@
+.cart_wholesale_content{
+    display: flex;
+    padding: 1% 8%;
+}
+.cart_wholesale_left_option{
+    width: 30%;
+    padding-right: 30px;
+}
+.cart_wholesale_right_option{
+    width: 70%;
+    background: #fff;
+    border-radius: 8px;
+}
+.wholesale_product_content{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.wholesale_product_img_cover{
+    margin-right: 30px;
+}
+.whl_pro_name{
+    margin-bottom: 20px;
+}
+.whl_pro_name span{
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+}
+.whl_pro_info{
+    line-height: 200%;
+}
+.blue2{
+    color: #6D44E0;
+}
+.underlined{
+    text-decoration-line: underline;
+}
+.option1_cover{
+    display: flex;
+}
+.option1_cover_inf{
+    text-align: left;
+}
+.option1_cover_img{
+    margin: 0 25px;
+}
+.option_color{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.color{
+    width: 33px;
+    height: 34px;
+    background: #DDE1E7;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color_inner{
+    width: 24.13px;
+    height: 24.13px;
+    border-radius: 50%;
+}
+.bg-blue{
+    background: #3BCADD;
+}
+.bg-brown{
+    background: #5F6153;
+}
+.color_text{
+    width: 55px;
+    height: 34px;
+    background: #F2F4F7;
+    color: #868E96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select_quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select_quantity button{
+    background: none;
+    border: none;
+    outline: none;
+}
+.border2{
+    border-bottom: 1px solid #CDCDCD;
+    border-right: 1px solid #CDCDCD;
+}
+.border2:last-child{
+    border-right: none;
+}
+.border3{
+    border-right: 1px solid #CDCDCD;
+}
+.border3:last-child{
+    border-right: none;
+}
+
+
+.shop_details_container{
+    background: #fff;
+}
+.shop_details_content{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+}
+.shop_avt_cover{
+    margin-right: 45px;
+    width: 7%;
+}
+.shop_information{
+    padding: 10px 0;
+    width: 33%;
+}
+.shop_name{
+    font-size: 24px;
+}
+.sliver{
+    color: #828BAC;
+}
+.shop_selection{
+    text-align: right;
+    width: 60%;
+}
+.btn-come-shop{
+    width: 287px;
+    height: 40px;
+    background: #6D44E0;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.btn-hide-shop{
+    width: 287px;
+    height: 40px;
+    background: none;
+    border-radius: 8px;
+    border: 2px solid #6D44E0;
+    color: #6D44E0;
+    font-size: 14px;
+}

@@ -1,0 +1,232 @@
+
+.frame15011{
+    background: #273D90;
+    border-radius: 8px;
+    height: 226px;
+    width: 390px;
+    color: #fff;
+}
+.notifi{
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+.notifi span{
+    text-align: center;
+}
+#ntf_tt{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+#ntf_content{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn_notfi{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_notfi button{
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color: #EE0D79;
+}
+
+.frame_added{
+    background: #273D90;
+    border-radius: 8px;
+    height: 226px;
+    width: 390px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#frame_added_ntf{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.frame_added_content img{
+    padding-bottom: 35px;
+}
+
+.frame_ntf_1{
+    width: 405px;
+    height: 274px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.frame_ntf_1_content img {
+    padding-bottom: 15px;
+}
+.ntf_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.ntf_content{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 190%;
+    color: #888888;
+}
+.frame_ntf_button{
+    width: 100%;
+    display: flex;
+}
+.btn-back{
+    width: 149px;
+    height: 36px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid #6D44E0;
+    color: #6D44E0;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.btn-ctn{
+    width: 203px;
+    height: 36px;
+    background: #6D44E0;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.frame_option_wholesale_content{
+    width: 455px;
+}
+.option_wholesale_1{
+    margin: 30px 0;
+}
+
+.opt_by{
+    height: 30px;
+    border: 1px solid #868E96;
+    border-bottom: none;
+    background: none;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+.selected{
+    height: 30px;
+    border: 1px solid #EE0D79;
+    color: #EE0D79;
+    z-index: 2;
+    border-bottom: none;
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.border{
+    border: 1px solid #CDCDCD;
+}
+.font-bold{
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+.font-normal{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.blue{
+    color: #273D90;
+}
+.pink{
+    color: #EE0D79;
+}
+.white{
+    color: #fff;
+}
+.bg-pink{
+    background: #EE0D79;
+}
+.hidden{
+    display: none;
+}
+.btn-update-cover{
+    width: 100%;
+    height: 40px;
+    background: #EE0D79;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-update-cover button{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.option_wholesale_btn_line2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cmt{
+    width: 15%;
+    height: 100%;
+    border: 1px solid #6D44E0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+    border-right: none;
+}
+.btn-buy{
+    width: 55%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #6D44E0;
+    box-sizing: border-box;
+    color: #6D44E0;
+    font-size: 14px;
+}
+.btn-add-to-cart{
+    width: 50%;
+    height: 100%;
+    font-size: 14px;
+    background: #6D44E0;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0px 8px 8px 0px;
+    color: #B7B9BD;
+}

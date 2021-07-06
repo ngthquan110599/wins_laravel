@@ -1,9 +1,6 @@
 <html>
     <!-- BEGIN: Head-->
     @include('frontend.base.head')
-    <link rel="stylesheet" type="text/css" href="/access/css/home/style.css">
-    <link rel="stylesheet" type="text/css" href="/access/css/cart/cartpage.css">
-    <link rel="stylesheet" type="text/css" href="/access/css/cart/cartbought.css">
     <!-- END: Head-->
     
     <!-- BEGIN: Body-->
@@ -27,7 +24,7 @@
             </div>
             
             <div class="bouth_control align_content">
-                <div id="ml" class="font"> <span>Mua lẻ</span> </div><div id="kd" class="font"><span>Kinh doanh</span></div>
+                <div id="ml" class="font switch_content chose_this"> <span>Mua lẻ</span> </div><div id="kd" class="font not_chose_this switch_content "><span>Kinh doanh</span></div>
             </div>
             <div class="menu_bought align_content">
                 <div class="menu_bought_content font">
@@ -37,8 +34,8 @@
                        <li class="li_border nav-cart">Chờ lấy hàng</li>
                        <li class="li_border nav-cart">Đang giao</li>
                        <li class="li_border nav-cart">Đã giao</li>
-                       <li class="li_border nav-cart">Đã hủy</li>
-                       <li class="li_border nav-cart active">Đã trả</li>
+                       <li class="li_border nav-cart active">Đã hủy</li>
+                       <li class="li_border nav-cart">Đã trả</li>
                     </ul> 
                     
                 </div>
@@ -52,7 +49,7 @@
                         <div class="shop_group" style="border: none;">                       
                         </div>
                         <div class="wait_accept font">
-                            <span>ĐÃ TRẢ</span>
+                            <span>ĐÃ HỦY</span>
                         </div>
                     </div>
                     <div class="cart_line_2">
@@ -87,7 +84,7 @@
                             <span class="date_id">Ngày tạo đơn : 16: 20 21/12/2020</span>
                         </div>
                         <div class="options_order">
-                            <button class="btn_add_prcs">Đang xử lý</button>
+                            <button class="btn_view_order_ag">Đặt lại hàng</button>
                             <button class="btn_view_pr">Xem chi tiết đơn hàng</button>
                         </div>
                     </div>
@@ -101,7 +98,7 @@
                         <div class="shop_group" style="border: none;">                       
                         </div>
                         <div class="wait_accept font">
-                            <span>ĐÃ TRẢ</span>
+                            <span>ĐÃ HỦY</span>
                         </div>
                     </div>
                     <div class="cart_line_2">
@@ -136,7 +133,7 @@
                             <span class="date_id">Ngày tạo đơn : 16: 20 21/12/2020</span>
                         </div>
                         <div class="options_order">
-                            <button class="btn_add_prcs">Đang xử lý</button>
+                            <button class="btn_view_order_ag">Đặt lại hàng</button>
                             <button class="btn_view_pr">Xem chi tiết đơn hàng</button>
                         </div>
                     </div>
@@ -149,21 +146,4 @@
     </div>
     @include('frontend.base.script')
     </body>
-    <script>
-        $(document).ready(function(){
-            $('.nav-cart').click(function(){
-                $('.nav-cart').removeClass('active');
-                $(this).addClass('active');
-                /* let url = 'https://www.youtube.com/watch?v=yO2hR7eP6ww';
-                $.ajax({
-                    url: url,
-                    type:'GET',
-                    dataType: 'html',
-                    success: function(data){
-                        $('#container-cart').html(data);
-                    },
-                }) */
-            });
-        });
-    </script>
     </html>

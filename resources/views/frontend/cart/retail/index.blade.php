@@ -1,8 +1,7 @@
 <html>
 <!-- BEGIN: Head-->
 @include('frontend.base.head')
-<link rel="stylesheet" type="text/css" href="/access/css/home/style.css">
-<link rel="stylesheet" type="text/css" href="/access/css/cart/cartpage.css">
+
 <!-- END: Head-->
 
 <!-- BEGIN: Body-->
@@ -23,8 +22,8 @@
             </div>
         </div>
         <div class="cart">
-            <div class="bouth_control">
-                <div id="ml" class="font"> <span>Mua lẻ</span> </div><div id="kd" class="font"><span>Kinh doanh</span></div>
+            <div class="bouth_control align_content">
+                <div id="ml" class="font switch_content chose_this"> <span>Mua lẻ</span> </div><div id="kd" class="font not_chose_this switch_content "><span>Kinh doanh</span></div>
             </div>
             <div class="cart_div">
                 <div class="product">

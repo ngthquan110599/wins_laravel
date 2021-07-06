@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
-
-Route::get('/cart', [\App\Http\Controllers\CartController::class, 'cart1']);
-
 Route::group(['prefix' => 'cart'], function () {
     Route::get('', [\App\Http\Controllers\CartController::class, 'cart1']);
     Route::get('cart2', [\App\Http\Controllers\CartController::class, 'cart2']);
@@ -27,4 +24,12 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('type=5', [\App\Http\Controllers\CartController::class, 'delivered']);
     Route::get('type=6', [\App\Http\Controllers\CartController::class, 'aborted']);
     Route::get('type=7', [\App\Http\Controllers\CartController::class, 'paid']);
+    Route::group(['prefix' => 'wholesale'], function () {
+        Route::get('', [\App\Http\Controllers\CartController::class, 'wholesale']);
+        Route::get('type=1', [\App\Http\Controllers\CartController::class, 'businessCart']);
+    });
 });
+
+
+
+Route::get('/frame15011', [\App\Http\Controllers\CartController::class, 'frame']);
