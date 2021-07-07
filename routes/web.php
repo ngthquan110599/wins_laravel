@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductDetails;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
+
+Route::get('/product',[\App\Http\Controllers\ProductDetails::class, 'product']);
+
 Route::group(['prefix' => 'cart'], function () {
     Route::get('', [\App\Http\Controllers\CartController::class, 'cart1']);
     Route::get('cart2', [\App\Http\Controllers\CartController::class, 'cart2']);
