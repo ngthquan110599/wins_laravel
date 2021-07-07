@@ -24,8 +24,27 @@
         
             <div class="bouth_control align_content">
                 <div id="ml" class="font switch_content not_chose_this"> <span>Mua lẻ</span> </div><div id="kd" class="font chose_this switch_content "><span>Kinh doanh</span></div>
-                <div class="btn_show_shop_cover">
-                    <button  class="btn_show_shop font-bold">Hiện shop lên</button>
+            </div>
+
+            <div class="shop_details_container align_content">
+                <div class="shop_details_content">
+                    <div class="shop_avt_cover">
+                        <img src="/images/avtshop1.png" alt="">
+                    </div>
+                    <div class="shop_information">
+                        <div class="shop_name font-bold">
+                            <span>Shop áo Office </span>
+                        </div>
+                        <div class="shop_des">
+                            <span class="font-normal pink" style="font-size : 12px; line-height: 30px;">Đại lý online</span> <br>
+                            <span class="font-normal sliver" style="line-height: 15px;">Bạn đang mua buôn với tư cách nhà phân phối của chúng tôi <br>
+                                Sản phẩm sẽ tự động về kho và hiển thị bán hàng trên sàn</span>
+                        </div>                       
+                    </div>
+                    <div class="shop_selection">
+                        <button class="btn-come-shop font-bold">Đến kênh bán hàng</button> <br>
+                        <button class="btn-hide-shop font-bold">Ẩn shop đi </button>
+                    </div>
                 </div>
             </div>
         <div class="cart">    

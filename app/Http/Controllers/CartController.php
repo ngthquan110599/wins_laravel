@@ -64,6 +64,38 @@ class CartController extends Controller
     }
     public function businessCart()
     {
+        return view('frontend.cart.wholesale.business_cart');
+    }
+    public function businessCart1()
+    {
         return view('frontend.cart.wholesale.business_cart_1');
+    }
+    public function businessCart2()
+    {
+        return view('frontend.cart.wholesale.business_cart_2');
+    }
+    public function businessCart3()
+    {
+        return view('frontend.cart.wholesale.business_cart_3');
+    }
+    public function businessCart4()
+    {
+        return view('frontend.cart.wholesale.business_cart_4');
+    }
+    public function businessCart5()
+    {
+        return view('frontend.cart.wholesale.business_cart_5');
+    }
+    public function businessCart6()
+    {
+        return view('frontend.cart.wholesale.business_cart_6');
+    }
+    public function businessCart7()
+    {
+        return view('frontend.cart.wholesale.business_cart_7');
+    }
+    public function businessCart8()
+    {
+        return view('frontend.cart.wholesale.business_cart_8');
     }
 }

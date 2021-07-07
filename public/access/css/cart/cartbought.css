@@ -12,6 +12,7 @@
     list-style-type: none;
     margin: auto;
     width: 100%;
+    padding: 0;
 }
 .menu_bought_content li{
     text-decoration: none;
@@ -19,15 +20,13 @@
     font-size: 24px;
     line-height: 34px;
     color: #273D90;
-    padding: 22px 55px;  
+    padding: 22px 0;  
 }
 .menu_bought_content li a{
     text-decoration: none;
     color: #273D90;
 }
-.menu_bought_content li a::before{
-    color: #EE0D79;
-}
+
 .li_border{
     border-right: 1px solid #CDCDCD;
 }

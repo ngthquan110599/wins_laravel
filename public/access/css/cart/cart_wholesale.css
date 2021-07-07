@@ -141,6 +141,16 @@
     margin: 20px 0;
     font-size: 14px;
 }
+.btn-hide-shop2{
+    width: 287px;
+    height: 40px;
+    background: #6D44E0;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    margin: 40px 0;
+    font-size: 14px;
+}
 .btn-hide-shop{
     width: 287px;
     height: 40px;
@@ -149,4 +159,62 @@
     border: 2px solid #6D44E0;
     color: #6D44E0;
     font-size: 14px;
+}
+.btn_show_shop_cover{
+    width: 80%;
+    text-align: right;
+}
+.btn_show_shop{
+    width: 287px;
+    height: 40px;
+    background: #6D44E0;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+.li_border2{
+    border-right: 1px solid #CDCDCD;
+    width: 16.4%;
+    text-align: center;
+}
+.li_border2:first-child{
+    border-right: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+}
+.li_border2.active{
+    color: #EE0D79;
+}
+
+.btn_add_vote_2{
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    width: 240px;
+    height: 54px;
+    background: #6D44E0;
+    color: #fff;
+    margin-right: 20px;
+}
+.btn_abort_buy_ag_2{
+    background: #6D44E0;
+    opacity: 0.7;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 240px;
+    height: 54px;
+    color: #fff;
+    margin-right: 20px;
+}
+.btn_view_pr_2{
+    border: 1px solid #ECECEC;
+    border-radius: 6px;
+    width: 240px;
+    height: 54px;
+    color: #000;
+    background: none;
 }
