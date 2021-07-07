@@ -1,8 +1,6 @@
 <html>
 <!-- BEGIN: Head-->
 @include('frontend.base.head')
-<link rel="stylesheet" type="text/css" href="/access/css/home/style.css">
-<link rel="stylesheet" type="text/css" href="/access/css/cart/cartpage.css">
 <link rel="stylesheet" type="text/css" href="/access/css/cart/cartbought.css">
 <!-- END: Head-->
 
@@ -27,13 +25,13 @@
         </div>
         
         <div class="bouth_control align_content">
-            <div id="ml" class="font"> <span>Mua lẻ</span> </div><div id="kd" class="font"><span>Kinh doanh</span></div>
+            <div id="ml" class="font switch_content chose_this"> <span>Mua lẻ</span> </div><div id="kd" class="font not_chose_this switch_content "><span>Kinh doanh</span></div>
         </div>
         <div class="menu_bought align_content">
             <div class="menu_bought_content font">
                <ul>
-                   <li class="li_border nav-cart active">Mua chung</li>
-                   <li class="li_border nav-cart">Chờ xác nhận</li>
+                   <li class="li_border nav-cart">Mua chung</li>
+                   <li class="li_border nav-cart active">Chờ xác nhận</li>
                    <li class="li_border nav-cart">Chờ lấy hàng</li>
                    <li class="li_border nav-cart">Đang giao</li>
                    <li class="li_border nav-cart">Đã giao</li>
@@ -49,9 +47,7 @@
                     <div class="shop_name_cover">
                         <img src="/images/logo/shop1.png" alt="" style="width: auto; margin: 10px;"> <span class="shop_name font">Hải Xồm Shop</span> | <span id="shop">Men store</span>
                     </div>
-                    <div class="shop_group">
-                        <span class="group">Nhóm thiếu<span id="numb"> 3 </span>người</span>
-                        <span class="time_count_down">09:08:56</span>
+                    <div class="shop_group" style="border: none;">                       
                     </div>
                     <div class="wait_accept font">
                         <span>CHỜ XÁC NHẬN</span>
@@ -89,7 +85,7 @@
                         <span class="date_id">Ngày tạo đơn : 16: 20 21/12/2020</span>
                     </div>
                     <div class="options_order">
-                        <button class="btn_add_fr">Mời bạn bè tham gia</button>
+                        <button class="btn_add_fr">Thanh toán ngay</button>
                         <button class="btn_view_pr">Xem chi tiết đơn hàng</button>
                         <button class="btn_abort_od">Hủy đơn hàng</button>
                     </div>
@@ -101,9 +97,7 @@
                     <div class="shop_name_cover">
                         <img src="/images/logo/shop1.png" alt="" style="width: auto; margin: 10px;"> <span class="shop_name font">Hải Xồm Shop</span> | <span id="shop">Men store</span>
                     </div>
-                    <div class="shop_group">
-                        <span class="group">Nhóm thiếu<span id="numb"> 3 </span>người</span>
-                        <span class="time_count_down">09:08:56</span>
+                    <div class="shop_group" style="border: none;">                       
                     </div>
                     <div class="wait_accept font">
                         <span>CHỜ XÁC NHẬN</span>
@@ -141,7 +135,7 @@
                         <span class="date_id">Ngày tạo đơn : 16: 20 21/12/2020</span>
                     </div>
                     <div class="options_order">
-                        <button class="btn_add_fr">Mời bạn bè tham gia</button>
+                        <button class="btn_add_pay">Thanh toán ngay</button>
                         <button class="btn_view_pr">Xem chi tiết đơn hàng</button>
                         <button class="btn_abort_od">Hủy đơn hàng</button>
                     </div>
@@ -155,21 +149,5 @@
 </div>
 @include('frontend.base.script')
 </body>
-<script>
-    $(document).ready(function(){
-        $('.nav-cart').click(function(){
-            $('.nav-cart').removeClass('active');
-            $(this).addClass('active');
-            /* let url = 'https://www.youtube.com/watch?v=yO2hR7eP6ww';
-            $.ajax({
-                url: url,
-                type:'GET',
-                dataType: 'html',
-                success: function(data){
-                    $('#container-cart').html(data);
-                },
-            }) */
-        });
-    });
-</script>
+
 </html>

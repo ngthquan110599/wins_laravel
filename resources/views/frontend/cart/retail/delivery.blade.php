@@ -1,9 +1,7 @@
 <html>
 <!-- BEGIN: Head-->
 @include('frontend.base.head')
-<link rel="stylesheet" type="text/css" href="/access/css/home/style.css">
-<link rel="stylesheet" type="text/css" href="/access/css/cart/cartpage.css">
-<link rel="stylesheet" type="text/css" href="/access/css/cart/cartbought.css">
+
 <!-- END: Head-->
 
 <!-- BEGIN: Body-->
@@ -27,7 +25,7 @@
         </div>
         
         <div class="bouth_control align_content">
-            <div id="ml" class="font"> <span>Mua lẻ</span> </div><div id="kd" class="font"><span>Kinh doanh</span></div>
+            <div id="ml" class="font switch_content chose_this"> <span>Mua lẻ</span> </div><div id="kd" class="font not_chose_this switch_content "><span>Kinh doanh</span></div>
         </div>
         <div class="menu_bought align_content">
             <div class="menu_bought_content font">
@@ -149,21 +147,4 @@
 </div>
 @include('frontend.base.script')
 </body>
-<script>
-    $(document).ready(function(){
-        $('.nav-cart').click(function(){
-            $('.nav-cart').removeClass('active');
-            $(this).addClass('active');
-            /* let url = 'https://www.youtube.com/watch?v=yO2hR7eP6ww';
-            $.ajax({
-                url: url,
-                type:'GET',
-                dataType: 'html',
-                success: function(data){
-                    $('#container-cart').html(data);
-                },
-            }) */
-        });
-    });
-</script>
 </html>
