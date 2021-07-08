@@ -30,7 +30,15 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('type=7', [\App\Http\Controllers\CartController::class, 'paid']);
     Route::group(['prefix' => 'wholesale'], function () {
         Route::get('', [\App\Http\Controllers\CartController::class, 'wholesale']);
-        Route::get('type=1', [\App\Http\Controllers\CartController::class, 'businessCart']);
+        Route::get('type=0', [\App\Http\Controllers\CartController::class, 'businessCart']);
+        Route::get('type=1', [\App\Http\Controllers\CartController::class, 'businessCart1']);
+        Route::get('type=2', [\App\Http\Controllers\CartController::class, 'businessCart2']);
+        Route::get('type=3', [\App\Http\Controllers\CartController::class, 'businessCart3']);
+        Route::get('type=4', [\App\Http\Controllers\CartController::class, 'businessCart4']);
+        Route::get('type=5', [\App\Http\Controllers\CartController::class, 'businessCart5']);
+        Route::get('type=6', [\App\Http\Controllers\CartController::class, 'businessCart6']);
+        Route::get('type=7', [\App\Http\Controllers\CartController::class, 'businessCart7']);
+        Route::get('type=8', [\App\Http\Controllers\CartController::class, 'businessCart8']);
     });
 });
 
