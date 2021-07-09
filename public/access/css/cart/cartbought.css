@@ -29,6 +29,8 @@
 
 .li_border{
     border-right: 1px solid #CDCDCD;
+    width: 14%;
+    text-align: center;
 }
 .nav-cart{
     cursor: pointer;

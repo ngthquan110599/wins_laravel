@@ -62,3 +62,28 @@
         });
     });
 </script>
+<script>
+    $(document).ready(function(){
+        $('.cat').click(function(){
+            $('.cat').removeClass('pink');
+            $(this).addClass('pink');
+        });
+    });
+</script>
+
+{{-- Get HTML gio hang le --}}
+<script>
+    $(document).ready(function(){
+        $('.nav-cart').click(function(){
+          let url = $(this).attr('data-url');
+          $.ajax({
+              url: url,
+              type: 'GET',
+              dataType:'html',
+              success: function(data){
+                  $('#container-cart').html(data);
+              }
+          })
+        });
+    })
+</script>
