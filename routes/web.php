@@ -16,18 +16,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
 
-Route::get('/product',[\App\Http\Controllers\ProductDetails::class, 'product']);
+Route::get('/product', [\App\Http\Controllers\ProductDetails::class, 'product']);
 
 Route::group(['prefix' => 'cart'], function () {
     Route::get('', [\App\Http\Controllers\CartController::class, 'cart1']);
     Route::get('cart2', [\App\Http\Controllers\CartController::class, 'cart2']);
-    Route::get('type=1', [\App\Http\Controllers\CartController::class, 'buyTogether']);
-    Route::get('type=2', [\App\Http\Controllers\CartController::class, 'waitAccept']);
-    Route::get('type=3', [\App\Http\Controllers\CartController::class, 'waitGetProduct']);
-    Route::get('type=4', [\App\Http\Controllers\CartController::class, 'delivery']);
-    Route::get('type=5', [\App\Http\Controllers\CartController::class, 'delivered']);
-    Route::get('type=6', [\App\Http\Controllers\CartController::class, 'aborted']);
-    Route::get('type=7', [\App\Http\Controllers\CartController::class, 'paid']);
+    Route::get('base', [\App\Http\Controllers\CartController::class, 'base']);
+    Route::get('type=1', [\App\Http\Controllers\CartController::class, 'buyTogether'])->name('buy-together');
+    Route::get('type=2', [\App\Http\Controllers\CartController::class, 'waitAccept'])->name('wait-accept');
+    Route::get('type=3', [\App\Http\Controllers\CartController::class, 'waitGetProduct'])->name('wait-get-product');
+    Route::get('type=4', [\App\Http\Controllers\CartController::class, 'delivery'])->name('delivery');
+    Route::get('type=5', [\App\Http\Controllers\CartController::class, 'delivered'])->name('delivered');
+    Route::get('type=6', [\App\Http\Controllers\CartController::class, 'aborted'])->name('aborted');
+    Route::get('type=7', [\App\Http\Controllers\CartController::class, 'paid'])->name('paid');
     Route::group(['prefix' => 'wholesale'], function () {
         Route::get('', [\App\Http\Controllers\CartController::class, 'wholesale']);
         Route::get('type=0', [\App\Http\Controllers\CartController::class, 'businessCart']);
@@ -45,3 +46,5 @@ Route::group(['prefix' => 'cart'], function () {
 
 
 Route::get('/frame15011', [\App\Http\Controllers\CartController::class, 'frame']);
+Route::get('/notification', [\App\Http\Controllers\OptionsController::class, 'notification']);
+Route::get('/favourite', [\App\Http\Controllers\OptionsController::class, 'favourite']);

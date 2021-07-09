@@ -17,6 +17,11 @@ class CartController extends Controller
         return view('frontend.cart.retail.cart2');
     }
 
+    public function base()
+    {
+        return view('frontend.cart.retail.base');
+    }
+
     public function buyTogether()
     {
         return view('frontend.cart.retail.buytogether');
